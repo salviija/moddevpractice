@@ -1,7 +1,8 @@
-package com.salviija.tutorialmod;
+package com.salviija.sagetech;
 
 import com.mojang.logging.LogUtils;
-import com.salviija.tutorialmod.item.ModItems;
+import com.salviija.sagetech.block.ModBlocks;
+import com.salviija.sagetech.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class SageTechMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

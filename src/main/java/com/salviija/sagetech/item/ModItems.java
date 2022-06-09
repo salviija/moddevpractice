@@ -1,7 +1,7 @@
-package com.salviija.tutorialmod.item;
+package com.salviija.sagetech.item;
 
-import com.salviija.tutorialmod.SageTechMod;
-import net.minecraft.client.renderer.item.ItemProperties;
+import com.salviija.sagetech.SageTechMod;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
